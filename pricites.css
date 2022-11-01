@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: Roboto;
+   font-size: 20px;
+}
+#wrapper{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left p{
+    font-size: 15px;
+}
+.left
+{
+    width: 60%;
+    margin-left: 40PX;
+}
+.right{
+    width: 74%;
+    height: 100vh;
+}
+.right img{
+    width: 60%;
+    
+}
+.left .heading{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.left .heading img{
+    width: 25px;
+}
+form input{
+    margin-top: 20px;
+    width: 75%;
+    height: 45px;
+}
+.left .anchore{
+    margin-top: 20px;
+
+}
+.left .anchore a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.left .anchore-right{
+    margin-left: 53%;
+   
+}
+.left .anchore button{
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 28px;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+.left .anchore  button i{
+    color: blue;
+}
+.left .bottom {
+    margin-top: 80px;
+    
+}
+.left .bottom p{
+    text-align: center;
+    padding-right: 192px;
+}
+.icon{margin-left: 145px; }
+.icon i{
+    padding: 10px;
+    font-size: 20px;
+}
+.right { 
+    background: url(images/12.jpeg) no-repeat scroll center /cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+
+}
+
+  .right .contant{
+    text-align: center;
+    
+  }
+  .right  .contant h1{
+    margin-top: 10px;
+    font-size: 30px;
+    text-transform: capitalize;
+  }
+  .right p{
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .anchore a{
+    font-size: 12px;
+    padding-bottom: 0.5rem;
+    color: #5f68ea;
+    position: relative;
+  }
+  .anchore a:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #5f68ea;
+    transition: all 0.25s linear;
+  }
+  .anchore a:hover:before{
+    width: 40px;
+  }
+  .anchore button i{
+    color: greenyellow;
+    padding-left: 0.35rem;
+    position: relative;
+    transition: all 0.25s linear;
+  }
+  .anchore button:hover i{
+    transform: translateX(10px);
+  }
+@media all and (max-width:1080px){
+    .right{display:NONE ;}
+    .left{width: 100%; text-align: center;}
+  }
+
+  
